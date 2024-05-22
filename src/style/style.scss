@@ -1,0 +1,32 @@
+// @import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+
+.trasted-bg {
+  background-image: url(../assets/1641534191618.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profit-bg {
+  background-image: url(../assets/shape-2.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.copy-trading {
+  background-image: url(../assets/istockphoto-1407828820-612x612.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-boxs-hadow {
+  box-shadow: 7px 7px 12px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 7px 7px 12px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 7px 12px -6px rgba(0, 0, 0, 0.75);
+}
+
+body {
+  font-family: 'Tangerine', serif;
+  
+}
+ 

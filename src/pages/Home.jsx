@@ -1,41 +1,43 @@
-import React from 'react'
+import React from "react";
 
-import Container from '../components/layouts/Container'
-import Flex from '../components/layouts/Flex'
-import Img from '../components/layouts/Img'
-import BannerImg from '../assets/BannerImg.jpeg'
-import secondBannerImg from '../assets/secondBannerImg.jpg'
+import Container from "../components/layouts/Container";
+import Flex from "../components/layouts/Flex";
+import Img from "../components/layouts/Img";
+import BannerImg from "../assets/BannerImg.jpeg";
+import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 const Home = () => {
-    return (
-        <div className='bg-[#000000] pt-[56px] pb-[150px]'>
-            <Container>
-                <Flex className='justify-between'>
-                    <div className='w-[514px] text-[#fff] mt-[220px]'>
-                        <h1 className='font-[600] text-[75px] text-[#da871b]'>A Map to Navigating the Market.</h1>
-                        <p className='mb-[27px] text-[18px]'>As a Forex trader, having a good working knowledge of how the market truly works is essential to achieving success in trading the currency market.</p>
-                        <p className='text-[18px]'>Make informed trading decisions, identify profitable opportunities, and ultimately grow your portfolio.</p>
-                    </div>
+  return (
+    <div className="bg-[#090d16] ">
+      <Container>
+        <Flex className="justify-between w-full items-center gap-5 pt-[60px] pb-[100px]" >
+          <div className="w-1/2 text-[#fff] ">
+            <h1 className="font-[600] text-[55px] text-[#da871b]">
+              A Map To Navigating The Market.
+            </h1>
+            <p className="mb-[50px] text-[18px] tracking-[.10em] ">
+              As a Forex trader, having a good working knowledge of how the
+              market truly works is essential to achieving success in trading
+              the currency market.
+            </p>
+            <div className="">
+              <button className="text-[white] bg-[#FE5924] relative font-semibold px-6 py-2 rounded-[27px] flex items-center gap-1 before:bg-[#ffff] before:absolute before:w-full before:h-full before:left-[-100%] before:rounded-3xl hover:before:top-0 hover:before:left-0 before:duration-[.5s]  overflow-hidden before:-z-10 z-0 hover:text-[#FE5924]">
+                More Info{" "}
+                <span>
+                  <MdOutlineArrowRightAlt className="text-3xl" />
+                </span>
+              </button>
+            </div>
+          </div>
+          <Img
+            src={BannerImg}
+            imgClassName={"w-full rounded-xl"}
+            className={"w-1/2 "}
+          />
+        </Flex>
+      </Container>
+    </div>
+  );
+};
 
-                    <picture>
-                        <Img src={BannerImg} imgClassName={'w-[900px] mt-[170px]'}/>
-                    </picture>
-                </Flex>
-
-                <Flex className={'mt-[120px] gap-[200px]'}>
-                    <picture>
-                        <Img src={secondBannerImg} imgClassName={'w-[550px] mt-[150px]'}/>
-                    </picture>
-
-                    <div className='mt-[200px] text-[#fff] w-[600px]'>
-                        <h2 className='font-[600] text-[60px] text-[#da871b] mb-[80px]'>Your Trusted Partner for Modern Trading.</h2>
-                        <p className='mb-[27px] text-[18px]'>Welcome to PrecisionFX – Our company provides a range of expert services to help you navigate the exciting world of currency markets. With a team of professional elites who are passionate about modern investing, we have the knowledge and experience to guide you toward success.</p>
-                        <p className='text-[18px]'>Our team includes seasoned traders with over seven years of experience in trading forex, options, and cryptocurrencies. Their expertise and insights have helped us build a reputation as a trusted partner for modern investors.</p>
-                    </div>
-                </Flex>
-            </Container>
-        </div>
-    )
-}
-
-export default Home
+export default Home;

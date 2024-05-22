@@ -16,6 +16,8 @@ export default {
 
       backgroundImage: {
         
+          
+        
       },
 
       boxShadow: {
