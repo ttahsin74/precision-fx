@@ -9,6 +9,7 @@ import Trusted from "./pages/Trusted";
 import ProfotLose from "./pages/ProfotLose";
 import Footer from "./pages/Footer";
 import Contact from "./pages/Contact";
+import Corevalue from "./pages/Corevalue";
 function App() {
   return (
     <section className="bg-black font-syne">
@@ -17,8 +18,9 @@ function App() {
       <Trusted />
       <CopyTrading />
       <About />
+      <Corevalue />
       <ProfotLose />
-      <Contact/>
+      <Contact />
       <Footer />
     </section>
   );

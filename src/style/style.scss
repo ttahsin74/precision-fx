@@ -1,6 +1,5 @@
 // @import "~react-image-gallery/styles/scss/image-gallery.scss";
 
-
 .trasted-bg {
   background-image: url(../assets/1641534191618.jpg);
   background-position: center;
@@ -26,7 +25,29 @@
 }
 
 body {
-  font-family: 'Tangerine', serif;
-  
+  font-family: "Tangerine", serif;
 }
- 
+.card-bg {
+  background-image: url("../assets/photo-1611974789855-9c2a0a7236a3.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+.card-shadow {
+  -webkit-box-shadow: 7px 7px 14px -7px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 7px 7px 14px -7px rgba(0, 0, 0, 1);
+  box-shadow: 7px 7px 14px -7px rgba(0, 0, 0, 1);
+}
+///////for responsive////////////////
+
+.hero-bg {
+  background-image: url("../assets//BannerImg.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
