@@ -15,8 +15,8 @@ const Footer = () => {
     <section>
       <div className="bg-[#d8d8d8] py-[50px]">
         <Container>
-          <Flex className={"items-center gap-16 flex-wrap"}>
-            <div className="sm:w-[35%] w-full">
+          <Flex className={"items-center gap-16 md:flex-nowrap flex-wrap"}>
+            <div className="md:w-[33%] w-full">
               <div className="w-[200px] m-auto md:m-0 ">
                 <img src={FotterIcon} alt="" />
               </div>
