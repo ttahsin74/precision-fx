@@ -12,10 +12,10 @@ const Contact = () => {
           <Flex className="items-center m-auto gap-[20px] flex-wrap">
             <div className="content-sec md:w-[45%] w-full text-center md:text-left ">
               <Img className={"w-48 m-auto md:m-0"} src={FormBg} />
-              <h3 className="my-[15px] font-oxanium text-[24px] font-bold text-[#F95C19]">
+              <h3 className="my-[15px] font-oxanium text-[20px] lg:text-[24px] font-bold text-[#F95C19]">
                 REQUEST A CALLBACK
               </h3>
-              <h2 className=" font-extrabold text-[39px] text-[#222132] leading-tight md:leading-snug">
+              <h2 className=" font-extrabold text-3xl md:[35px] lg:text-[39px] text-[#222132] leading-tight md:leading-snug">
                 We will contact in the shortest time.
               </h2>
             </div>

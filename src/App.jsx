@@ -12,7 +12,7 @@ import Contact from "./pages/Contact";
 import Corevalue from "./pages/Corevalue";
 function App() {
   return (
-    <section className="bg-black font-syne">
+    <section className="bg-black font-syne overflow-hidden">
       <Navbar />
       <Home />
       <Trusted />

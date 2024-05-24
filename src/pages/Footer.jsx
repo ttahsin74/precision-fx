@@ -26,7 +26,7 @@ const Footer = () => {
                 navigate the markets with confidence and precision. Join us
                 today and take your trading to new heights.
               </p>
-              <div className="mt-5 md-block hidden">
+              <div className="mt-5 hidden lg:block">
                 <h3 className="text-[25px] text-[#2C3B6B] font-bold">
                   Social Links
                 </h3>
@@ -47,7 +47,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="md:w-[60%] w-full ">
-              <div className="flex gap-12 flex-wrap md:flex-nowrap justify-center md:justify-start ">
+              <div className="grid sm:grid-cols-3 lg:grid-cols-3 lg:grid-rows-2 2xl:grid-cols-4 2xl:grid-rows-1 gap-12 flex-wrap md:flex-nowrap justify-center md:justify-start">
                 <div className="flex flex-col">
                   <h6 className="ml-[-16px] text-[#2B3A6A] font-bold text-[18px]">
                     Trading
@@ -80,7 +80,7 @@ const Footer = () => {
                     <li>Email</li>
                   </ul>
                 </div>
-                <div className="p-5 bg-[#cfc8c856] form-boxs-hadow rounded-lg">
+                <div className="p-5 bg-[#cfc8c856] form-boxs-hadow rounded-lg lg:col-span-3 lg:row-span-1 2xl:col-span-4 2xl:row-span-1 sm:col-span-full">
                   <h3 className="text-2xl font-bold">Need assistance?</h3>
                   <p>Live chat with our team for assistance.</p>
                   <div className="flex items-center gap-4 bg-[#88888869] rounded-lg px-3 py-1 mt-4 ">
@@ -88,7 +88,7 @@ const Footer = () => {
                       <SiMessenger className="text-3xl text-[#3375F7]" />
                     </div>
                     <div>
-                      <h6 className="font-bold  text-[#2b334d]">
+                      <h6 className="font-bold text-[#2b334d]">
                         Live Chat With
                       </h6>
                       <span className="text-[14px]">Expert</span>

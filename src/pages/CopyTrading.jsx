@@ -28,7 +28,7 @@ const CopyTrading = () => {
               Maximize Profit, its our maain aim for receve interset .
             </p>
           </div>
-          <Flex className="gap-5 lg:flex-nowrap flex-wrap m-auto lg:m-0">
+          <Flex className="gap-5 lg:flex-nowrap flex-wrap m-auto lg:m-0 items-center">
             <div className=" text-[#fff] lg:w-[50%] w-full overflow-hidden">
               <div className="bg-[#3436478a] w-full xl:p-10 lg:p-6 p-4">
                 <h4 className="text-[#ffffff] font-[600] lg:text-[30px] text-[22px] lg:w-[400px] w-full leading-snug lg:text-left text-center ">
