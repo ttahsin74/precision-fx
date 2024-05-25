@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
-import secondBannerImg from "../assets/secondBannerImg.jpg";
+import secondBannerImg from "../assets/adobestock-575997332_298135.jpg";
 import Flex from "../components/layouts/Flex";
 import Img from "../components/layouts/Img";
 import Container from "../components/layouts/Container";
@@ -48,7 +48,7 @@ const Trusted = () => {
               initial={{ opacity: 0, y: 120 }}
               animate={controls}
               transition={{ duration: 1 }}
-              className="lg:w-1/2 w-full order-last lg:order-1"
+              className="lg:w-1/2 w-full "
             >
               <Img src={secondBannerImg} imgClassName="w-full " />
             </motion.div>

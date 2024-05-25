@@ -81,7 +81,12 @@ const Navbar = () => {
             </div>
           </Flex>
           <div className="flex items-center lg:gap-2 gap-5">
-            <div className="p-3 bg-[#FE5924] rounded-lg">
+            <div
+              onClick={() => {
+                setSearch(true);
+              }}
+              className="p-3 bg-[#FE5924] rounded-lg"
+            >
               <BiSearch className="text-xl text-white" />
             </div>
             <div className="hidden md:flex items-center gap-2  bg-[#2B3A6A] px-4 py-[11px] rounded-lg text-white text-[14px] hover:bg-[#2b3a6ad5] duration-300 ">
